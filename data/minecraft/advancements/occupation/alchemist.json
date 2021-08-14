@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:brewing_stand"
+        },
+        "title": "Alchemist",
+        "description": ["",{"text":"The mystery of potions lies in front of you","color": "white"}],
+        "show_toast":true,
+        "frame": "goal",
+        "announce_to_chat":true
+    },
+    "parent": "occupation/root",
+    "criteria": {
+        "get_alchemist_certificate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book",
+                        "nbt": "{author:\"The Empire of Arcadia\", title:\"Certificate for Alchemist\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

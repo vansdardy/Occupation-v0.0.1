@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:smithing_table"
+        },
+        "title": "Occupation Tree",
+        "frame": "task",
+        "description": ["",{"text":"Occupation tree starts here","color":"white"}],
+        "background":"minecraft:textures/block/deepslate_tiles.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "start_crafting": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "crafting_table"
+                    }
+                ]
+            }   
+        }
+    }
+}

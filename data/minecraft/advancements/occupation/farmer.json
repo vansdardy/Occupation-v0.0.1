@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_hoe"
+        },
+        "title": "Farmer",
+        "frame": "goal",
+        "description": ["",{"text":"A glorious Farmer!","color":"white"}],
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "minecraft:occupation/root",
+    "criteria": {
+        "get_farmer_certificate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book",
+                        "nbt": "{author:\"The Empire of Arcadia\", title:\"Certificate for Farmer\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

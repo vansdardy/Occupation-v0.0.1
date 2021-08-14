@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mojang_banner_pattern"
+        },
+        "title": "Engineer E",
+        "description": ["",{"text": "The great responsibility of an Engineer lies upon you","color": "orange"}],
+        "frame":"challenge",
+        "hidden": true
+    },
+    "parent": "occupation/senior_redstone_engineer",
+    "criteria": {
+        "get_farmer_certificate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book",
+                        "nbt": "{author:\"The Empire of Arcadia\", title:\"Certificate for Engineer E\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

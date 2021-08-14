@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "sponge"
+        },
+        "title": "Ocean Explorer",
+        "description": ["",{"text": "An underwater ripple","color": "white"}],
+        "frame": "goal"
+    },
+    "parent": "occupation/nether_explorer",
+    "criteria": {
+        "obtain_sponge":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item":"wet_sponge",
+                        "count": {
+                            "min": 3
+                        }
+                    }
+                ]
+            }
+        },
+        "kill_elder_guardian":{
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "elder_guardian"
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["obtain_sponge"],["kill_elder_guardian"]
+    ]
+}

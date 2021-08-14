@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "iron_pickaxe"
+        },
+        "title": "Miner",
+        "description": ["",{"text": "The soul from the Underground","color":"white"}],
+        "frame": "goal",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent":"occupation/root",
+    "criteria": {
+        "get_miner_certificate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book",
+                        "nbt": "{author:\"The Empire of Arcadia\", title:\"Certificate for Miner\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

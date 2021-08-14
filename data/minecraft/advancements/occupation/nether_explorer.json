@@ -1,0 +1,71 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "title": "Nether Explorer",
+        "description": ["",{"text": "8000-block and all biomes travelled, you are a warrior","color": "white"}],
+        "frame": "task"
+    },
+    "parent": "occupation/root",
+    "criteria": {
+        "biome1":{
+            "trigger": "location",
+            "conditions": {
+                "location":
+                {
+                    "biome":"nether_wastes"
+                }
+            }
+        },
+        "biome2":{
+            "trigger": "location",
+            "conditions": {
+                "location":
+                {
+                    "biome":"crimson_forest"
+                }
+            }
+        },
+        "biome3":{
+            "trigger": "location",
+            "conditions": {
+                "location":
+                {
+                    "biome":"warped_forest"
+                }
+            }
+        },
+        "biome4":{
+            "trigger": "location",
+            "conditions": {
+                "location":
+                {
+                    "biome":"soul_sand_valley"
+                }
+            }
+        },
+        "biome5":{
+            "trigger": "location",
+            "conditions": {
+                "location":
+                {
+                    "biome":"basalt_deltas"
+                }
+            }
+        },
+        "distance_travel":{
+            "trigger": "nether_travel",
+            "conditions": {
+                "distance": {
+                    "horizontal": {
+                        "min": 7000.0
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["biome1"],["biome2"],["biome3"],["biome4"],["biome5"],["distance_travel"]
+    ]
+}

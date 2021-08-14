@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stonecutter"
+        },
+        "title": "Engineer E2",
+        "description": ["",{"text": "The technician of Architecture Design","color": "white"}],
+        "hidden": true,
+        "announce_to_chat": true,
+        "show_toast": true,
+        "frame": "goal"
+    },
+    "parent": "occupation/junior_redstone_engineer",
+    "criteria": {
+        "get_e2_certificate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book",
+                        "nbt": "{author:\"The Empire of Arcadia\", title:\"Certificate for Engineer E2\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

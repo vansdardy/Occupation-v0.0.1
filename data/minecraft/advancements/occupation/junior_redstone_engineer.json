@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "title": "Junior Redstone Engineer",
+        "description": ["",{"text": "A boost for E1 Engineers, A transition to E2 Engineers","color": "white"}],
+        "announce_to_chat": true,
+        "frame": "task",
+        "show_toast": true
+    },
+    "parent": "occupation/engineer_e1",
+    "criteria": {
+        "get_jre_certificate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book",
+                        "nbt": "{author:\"The Empire of Arcadia\", title:\"Certificate for Junior Redstone Engineer\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

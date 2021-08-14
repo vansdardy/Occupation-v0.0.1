@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_block"
+        },
+        "title": "Senior Redstone Engineer",
+        "description": ["",{"text": "An expert in Redstone","color": "white"}],
+        "frame": "goal"
+    },
+    "parent": "occupation/engineer_e2",
+    "criteria": {
+        "get_sre_certificate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book",
+                        "nbt": "{author:\"The Empire of Arcadia\", title:\"Certificate for Senior Redstone Engineer\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

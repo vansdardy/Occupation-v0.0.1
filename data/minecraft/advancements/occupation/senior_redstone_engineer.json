@@ -4,7 +4,7 @@
             "item": "minecraft:redstone_block"
         },
         "title": "Senior Redstone Engineer",
-        "description": ["",{"text": "An expert in Redstone","color": "white"}],
+        "description": "An expert in Redstone",
         "frame": "goal"
     },
     "parent": "occupation/engineer_e2",

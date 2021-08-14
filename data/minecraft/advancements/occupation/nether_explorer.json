@@ -4,7 +4,7 @@
             "item": "minecraft:netherrack"
         },
         "title": "Nether Explorer",
-        "description": ["",{"text": "8000-block and all biomes travelled, you are a warrior","color": "white"}],
+        "description": "7000-block and all biomes travelled, you are a warrior",
         "frame": "task"
     },
     "parent": "occupation/root",

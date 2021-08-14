@@ -4,7 +4,7 @@
             "item": "minecraft:brewing_stand"
         },
         "title": "Alchemist",
-        "description": ["",{"text":"The mystery of potions lies in front of you","color": "white"}],
+        "description": "The mystery of potions lies in front of you",
         "show_toast":true,
         "frame": "goal",
         "announce_to_chat":true

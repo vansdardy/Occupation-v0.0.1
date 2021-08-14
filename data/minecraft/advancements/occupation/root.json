@@ -5,7 +5,7 @@
         },
         "title": "Occupation Tree",
         "frame": "task",
-        "description": ["",{"text":"Occupation tree starts here","color":"white"}],
+        "description": "Occupation tree starts here",
         "background":"minecraft:textures/block/deepslate_tiles.png",
         "show_toast": false,
         "announce_to_chat": false

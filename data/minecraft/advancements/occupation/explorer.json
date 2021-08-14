@@ -4,7 +4,7 @@
             "item": "minecraft:compass"
         },
         "title": "Explorer",
-        "description": ["",{"text": "The end or the mansion? The start!","color": "white"}],
+        "description": "The end or the mansion? The start!",
         "frame": "challenge",
         "hidden": true
     },

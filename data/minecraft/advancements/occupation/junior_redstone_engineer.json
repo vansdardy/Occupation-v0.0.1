@@ -4,7 +4,7 @@
             "item": "minecraft:redstone"
         },
         "title": "Junior Redstone Engineer",
-        "description": ["",{"text": "A boost for E1 Engineers, A transition to E2 Engineers","color": "white"}],
+        "description": "A boost for E1 Engineers, A transition to E2 Engineers",
         "announce_to_chat": true,
         "frame": "task",
         "show_toast": true

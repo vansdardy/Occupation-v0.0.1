@@ -4,7 +4,7 @@
             "item": "minecraft:mojang_banner_pattern"
         },
         "title": "Engineer E",
-        "description": ["",{"text": "The great responsibility of an Engineer lies upon you","color": "orange"}],
+        "description": "The great responsibility of an Engineer lies upon you",
         "frame":"challenge",
         "hidden": true
     },

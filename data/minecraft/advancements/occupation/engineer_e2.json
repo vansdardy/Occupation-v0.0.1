@@ -4,7 +4,7 @@
             "item": "minecraft:stonecutter"
         },
         "title": "Engineer E2",
-        "description": ["",{"text": "The technician of Architecture Design","color": "white"}],
+        "description": "The technician of Architecture Design",
         "hidden": true,
         "announce_to_chat": true,
         "show_toast": true,

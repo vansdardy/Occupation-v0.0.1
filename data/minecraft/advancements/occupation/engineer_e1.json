@@ -4,7 +4,7 @@
             "item": "crafting_table"
         },
         "title": "Engineer E1",
-        "description": ["",{"text":"The first level of becoming an Engineer","color":"white"}],
+        "description": "The first level of becoming an Engineer",
         "frame":"task",
         "announce_to_chat": true,
         "show_toast": true

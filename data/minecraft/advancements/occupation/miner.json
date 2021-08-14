@@ -3,8 +3,8 @@
         "icon": {
             "item": "iron_pickaxe"
         },
-        "title": "Miner",
-        "description": ["",{"text": "The soul from the Underground","color":"white"}],
+        "title": "All-Purpose Miner",
+        "description": "An underground soul?",
         "frame": "goal",
         "announce_to_chat": true,
         "show_toast": true

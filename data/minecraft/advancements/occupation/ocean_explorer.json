@@ -4,7 +4,7 @@
             "item": "sponge"
         },
         "title": "Ocean Explorer",
-        "description": ["",{"text": "An underwater ripple","color": "white"}],
+        "description": "An underwater ripple",
         "frame": "goal"
     },
     "parent": "occupation/nether_explorer",

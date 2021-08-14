@@ -5,7 +5,7 @@
         },
         "title": "Farmer",
         "frame": "goal",
-        "description": ["",{"text":"A glorious Farmer!","color":"white"}],
+        "description": "A glorious Farmer!",
         "show_toast": true,
         "announce_to_chat": true
     },
